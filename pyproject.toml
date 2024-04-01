@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "elastic-password-setter"
+version = "0.1.0"
+description = "Tool to set the password of the Elastic built-in users"
+authors = ["Ygal Blum <ygal.blum@gmail.com>"]
+license = "Apache Version 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+elasticsearch = "^8.13.0"
+pydantic = "^2.6.4"
+injector = "^0.21.0"
+envyaml = "^1.10.211231"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
